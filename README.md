@@ -2,6 +2,7 @@
 The project involved designing an inverse overcurrent (CO-8) relay with user selectable tap and time dial settings. The relay recorded the current level, time stamp of relay tripping and reset. The mathematical model was implemented using MATLAB. 
 ABSTRACT: This project involves the use of standard electromechanical Over current relay (CO‐8). The relay operation is tested in this project under various operating conditions. The results obtained by running the code must satisfy the time curve of over current relay (CO-8). The theoretical mathematical model which is to be used to design the overcurrent relay is implemented in the software MATLAB. In order to filter out the harmonics and DC offset, cosine filter is used instead of Low pass FIR filter as it does not clear Dc offset. In order to make the operation of the electro mechanical relay clear, faults currents of one level and two levels are used. In this project three tap settings and three time dial settings are used to check the operation of the relay.
 
+This Project was created to as a part of coursework for UTA EE 5374 under Dr Wei-Jen Lee.
 HOW TO RUN THE CODE: 1) Make sure the Excel files (attached in the repository) are in the same folder as the .m file.
 
 2) Apply the following Code
